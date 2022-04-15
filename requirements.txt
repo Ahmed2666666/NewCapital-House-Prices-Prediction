@@ -10,8 +10,6 @@ itsdangerous
 Jinja2 
 joblib==1.1.0
 MarkupSafe
-mkl-random
-mkl-service
 numpy 
 pycparser  
 scikit-learn==0.24.1
