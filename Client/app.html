@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            The new administrative capital house price prediction
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="app.js"></script>
+        <link rel="stylesheet" href="app.css">
+    </head>
+    
+    <body>
+        <!-- "area", "bedroom", "bathroom", "floor", "services", "furnished", "hotel", "compound" -->
+        <div class="img"></div>
+        <form class="form">
+
+            <h2>Area (Meter)</h2>
+            <input class="area" class="floatLabel" type="number" id="UiArea" name="MeterArea" value="100" >
+
+            <h2>Bedroom</h2>
+            <div class="switch-field">
+                <input type="radio" id="radio-bedroom-1" name="UiBedroom" value="1"/>
+                <label for="radio-bedroom-1">1</label>
+
+                <input type="radio" id="radio-bedroom-2" name="UiBedroom" value="2"/>
+                <label for="radio-bedroom-2">2</label>
+
+                <input type="radio" id="radio-bedroom-3" name="UiBedroom" value="3"/>
+                <label for="radio-bedroom-3">3</label>
+
+                <input type="radio" id="radio-bedroom-4" name="UiBedroom" value="4"/>
+                <label for="radio-bedroom-4">4</label>
+
+                <input type="radio" id="radio-bedroom-5" name="UiBedroom" value="5"/>
+                <label for="radio-bedroom-5">5</label>
+
+                <input type="radio" id="radio-bedroom-6" name="UiBedroom" value="6"/>
+                <label for="radio-bedroom-6">6</label>
+            </div>
+        </form>
+
+
+        <form class="form">
+            <h2>Bathroom</h2>
+            <div class="switch-field">
+                <input type="radio" id="radio-bathroom-1" name="UiBathroom" value="1"/>
+                <label for="radio-bathroom-1">1</label>
+
+                <input type="radio" id="radio-bathroom-2" name="UiBathroom" value="2"/>
+                <label for="radio-bathroom-2">2</label>
+
+                <input type="radio" id="radio-bathroom-3" name="UiBathroom" value="3"/>
+                <label for="radio-bathroom-3">3</label>
+
+                <input type="radio" id="radio-bathroom-4" name="UiBathroom" value="4"/>
+                <label for="radio-bathroom-4">4</label>
+
+                <input type="radio" id="radio-bathroom-5" name="UiBathroom" value="5"/>
+                <label for="radio-bathroom-5">5</label>
+            </div>
+        </form>
+            
+        <form class="form">
+            <h2>Floor(from 1 : 24)</h2>
+            <input class="floor" type="number" id="UiFloor" name="UiFloor"  min="1" max="24">
+
+            <h2>Services</h2>
+            <div class="switch-field">
+                <input type="radio" id="services-yes" name="UiServices" value="1"/>
+                <label for="services-yes">Yes</label>
+
+                <input type="radio" id="services-no" name="UiServices" value="0"/>
+                <label for="services-no">No</label>
+            </div>
+
+        </form>
+
+
+        <form class="form">
+
+            <h2>Do you want the apartment furnished?</h2>
+            <div class="switch-field">
+                <input type="radio" id="radio-furnished-yes" name="UiFurnished" value="1"/>
+                <label for="radio-furnished-yes">Yes</label>
+
+                <input type="radio" id="radio-furnished-no" name="UiFurnished" value="0"/>
+                <label for="radio-furnished-no">No</label>
+            </div>
+
+
+        </form>
+
+
+        <form class="form">
+
+            <h2>Do you want an apartment in a hotel?</h2>
+            <div class="switch-field">
+                <input type="radio" id="radio-hotel-yes" name="UiHotel" value="1"/>
+                <label for="radio-hotel-yes">Yes</label>
+
+                <input type="radio" id="radio-hotel-no" name="UiHotel" value="0"/>
+                <label for="radio-hotel-no">No</label>
+            </div>
+        </form>
+
+
+        <form class="form">
+
+            <h2>Do you want an apartment in a compound?</h2>
+            <div class="switch-field">
+                <input type="radio" id="radio-compound-yes" name="UiCompound" value=1/>
+                <label for="radio-compound-yes">Yes</label>
+
+                <input type="radio" id="radio-compound-no" name="UiCompound" value=0/>
+                <label for="radio-compound-no">No</label>
+            </div>
+            
+        
+
+            <button class="submit" onclick="onClickEstimatePrice()"  type="button">Estimate Price</button>
+            <div id="UiEstimatedPrice" class="result"> <h2></h2> </div>
+            
+        </form>    
+
+        
+
+        
+    </body>
+</html>
