@@ -1,6 +1,7 @@
 # House price prediction in the New Administrative Capital of egypt
 
 This project aims to predict house prices in the New Administrative Capital of egypt by analyzing the accuracy of predicting house prices using Multiple linear regression, support vector machine, logistic regression, Random Forest regression algorithms, and Artificial neural network (ANN). Thus, this project aims to get an accurate prediction and a high percentage of training and testing.
+the dataset used in this project i collected from olx egypt and some other companies here :https://docs.google.com/spreadsheets/d/1rg-z84NeLPEG4J0lPT79Wxx3Ndj2BOR_/edit?usp=sharing&ouid=109269817434291560665&rtpof=true&sd=true
 
 ## General conclusion 
 the model shows a comparison between the regression algorithms and lasso and decision tree algorithms when predicting house prices in the new administrative capital of Egypt. The results were promising for the public data due to it being rich with features and having a strong correlation, whereas the local data gave a worse outcome when because the data was in a different shape than the public data in terms of the number of features and correlation strength, the same pre-processing technique was used.
