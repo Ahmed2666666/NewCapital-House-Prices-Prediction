@@ -1,1 +1,18 @@
-# AOU-Project
+# House price prediction in the New Administrative Capital of egypt
+
+This project aims to predict house prices in the New Administrative Capital of egypt by analyzing the accuracy of predicting house prices using Multiple linear regression, support vector machine, logistic regression, Random Forest regression algorithms, and Artificial neural network (ANN). Thus, this project aims to get an accurate prediction and a high percentage of training and testing.
+
+## General conclusion 
+the model shows a comparison between the regression algorithms and lasso and decision tree algorithms when predicting house prices in the new administrative capital of Egypt. The results were promising for the public data due to it being rich with features and having a strong correlation, whereas the local data gave a worse outcome when because the data was in a different shape than the public data in terms of the number of features and correlation strength, the same pre-processing technique was used.
+
+Hence, the local data needs more features to be added preferably with a strong correlation with the house price. However, the decision tree gave the best RMSE score. The results of this model showed that the decision tree makes better predictions compared to other used algorithms.
+
+There are many real estate rating sites where properties are listed for sale/buy/rent like [Olx] and more. However, in each of these sites, we can see a lot of discrepancies in terms of apartment prices and there are some cases where similar apartments are priced differently therefore there is a lot of transparency. Consumers may sometimes feel that pricing is not justified but there is no way to confirm that either. Addressing this problem will help both clients and the real estate industry in the long run. So, we used intelligent techniques of the machine and artificial learning to develop an algorithm that can predict housing prices based on some input features such as area, number of rooms, number of bathrooms, floor, services, and whether the apartment is normal or located in a compound or located in a hotel. I used many algorithms of the sklearn library such as decision tree and linear regression and lasso and support vector regression and we got the highest accuracy is 91% from the decision tree algorithm is to predict the prices of new properties that will be listed by taking some input variables and the correct and justified prediction of prices. And after making the model using python, I make the python flask API and then make the frontend part using HTML and CSS, and JavaScript. 
+
+## Lessons learned 
+In this project, I learned a lot of things like supervised machine learning by searching and taking courses and I have learned python flask API and making a frontend form using HTML and CSS and JavaScript, and learned how to integrate the backend with the frontend part using flask API. And I have learned the testing techniques. And, I have learned how to search for any errors.
+
+## Identified gaps 
+The first problem I met was the lack of data for homes in the new administrative capital in Egypt (there is no ready data) and the difficulty of obtaining it and it took a lot of time to collect data from many sites and companies such as olx and property finder new capital of Egypt and aa lot.
+6.4	 Future work 
+I will be continuing collecting the data and adding them to my dataset and doing more analysis and trying the best regression machine learning algorithms to get the best prediction accuracy. And I will build a website for buying real estate in Egypt, and I will but the feature of predicting the house price.
